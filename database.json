@@ -1,0 +1,119 @@
+{
+  "parents": [
+    {
+      "id": 1,
+      "name": "Morticia Addams",
+      "email": "deadheadroses@msn.com",
+      "isGuardian": true
+    },
+    {
+      "id": 2,
+      "name": "Annie Gale",
+      "email": "tornandoprep@msn.com",
+      "isGuardian": true
+    },
+    {
+      "id": 3,
+      "name": "Maurice Beauty",
+      "email": "famousinventor@msn.com",
+      "isGuardian": true
+    },
+    {
+      "email": "smilesrus4@hotmail.com",
+      "fullName": "Amanda Wright",
+      "isGuardian": true,
+      "id": 4
+    }
+  ],
+  "child": [
+    {
+      "id": 1,
+      "name": "Wednesday Addams",
+      "username": "defendPugsley",
+      "parentId": 1
+    },
+    {
+      "id": 2,
+      "name": "Dorothy Gale",
+      "username": "OzPrincess",
+      "parentId": 2
+    },
+    {
+      "id": 3,
+      "name": "Belle Beauty",
+      "username": "love2read",
+      "parentId": 3
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "description": "Feed Thing",
+      "pointValue": 25,
+      "childId": 1,
+      "parentId": 1
+    },
+    {
+      "id": 4,
+      "description": "Make Bed",
+      "pointValue": 25,
+      "childId": 1,
+      "parentId": 1
+    },
+    {
+      "id": 2,
+      "description": "Give Toto Food and Water",
+      "pointValue": 25,
+      "childId": 2,
+      "parentId": 2
+    },
+    {
+      "id": 5,
+      "description": "Make your bed",
+      "pointValue": 25,
+      "childId": 2,
+      "parentId": 2
+    },
+    {
+      "id": 3,
+      "description": "Give Phillip Food and Water",
+      "pointValue": 25,
+      "childId": 3,
+      "parentId": 3
+    },
+    {
+      "id": 6,
+      "description": "Clean Phillip's stall",
+      "pointValue": 45,
+      "childId": 3,
+      "parentId": 3
+    },
+    {
+      "userId": 1,
+      "description": "Empty dishwasher",
+      "pointValue": "15",
+      "child": "Wednesday",
+      "id": 7
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "type": "hamster",
+      "pointValue": 100,
+      "childId": 1
+    },
+    {
+      "id": 2,
+      "type": "dog",
+      "pointValue": 150,
+      "childId": 2
+    },
+    {
+      "id": 3,
+      "type": "horse",
+      "pointValue": 200,
+      "childId": 3
+    }
+  ]
+}
