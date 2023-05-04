@@ -29,69 +29,64 @@
     {
       "id": 1,
       "name": "Wednesday Addams",
-      "username": "defendPugsley",
+      "userName": "defendPugsley",
       "parentId": 1
     },
     {
       "id": 2,
       "name": "Dorothy Gale",
-      "username": "OzPrincess",
+      "userName": "OzPrincess",
       "parentId": 2
     },
     {
       "id": 3,
       "name": "Belle Beauty",
-      "username": "love2read",
+      "userName": "love2read",
       "parentId": 3
+    },
+    {
+      "name": "Sailor Moon",
+      "userName": "MoonPrincess",
+      "id": 4
+    },
+    {
+      "name": "Sailor Moon",
+      "userName": "MoonPrincess",
+      "id": 5
+    },
+    {
+      "name": "Pugsley",
+      "userName": "stripedshirtsrule",
+      "id": 6
+    },
+    {
+      "name": "John",
+      "userName": "john22",
+      "id": 7
+    },
+    {
+      "name": "Doe",
+      "userName": "Doe33",
+      "id": 8
+    },
+    {
+      "name": "pete+",
+      "userName": "pete",
+      "id": 9
     }
   ],
   "tasks": [
     {
-      "id": 1,
-      "description": "Feed Thing",
-      "pointValue": 25,
-      "childId": 1,
-      "parentId": 1
-    },
-    {
-      "id": 4,
-      "description": "Make Bed",
-      "pointValue": 25,
-      "childId": 1,
-      "parentId": 1
-    },
-    {
-      "id": 2,
-      "description": "Give Toto Food and Water",
-      "pointValue": 25,
-      "childId": 2,
-      "parentId": 2
-    },
-    {
-      "id": 5,
-      "description": "Make your bed",
-      "pointValue": 25,
-      "childId": 2,
-      "parentId": 2
-    },
-    {
-      "id": 3,
-      "description": "Give Phillip Food and Water",
-      "pointValue": 25,
-      "childId": 3,
-      "parentId": 3
-    },
-    {
       "id": 6,
       "description": "Clean Phillip's stall",
-      "pointValue": 45,
+      "pointValue": "25 points",
       "childId": 3,
       "parentId": 3
     },
     {
       "userId": 1,
       "description": "Empty dishwasher",
-      "pointValue": "15",
+      "pointValue": "25 points",
       "child": "Wednesday",
       "id": 7
     }
@@ -100,19 +95,19 @@
     {
       "id": 1,
       "type": "hamster",
-      "pointValue": 100,
+      "pointValue": "25 points",
       "childId": 1
     },
     {
       "id": 2,
       "type": "dog",
-      "pointValue": 150,
+      "pointValue": "25 points",
       "childId": 2
     },
     {
       "id": 3,
       "type": "horse",
-      "pointValue": 200,
+      "pointValue": "25 points",
       "childId": 3
     }
   ]
